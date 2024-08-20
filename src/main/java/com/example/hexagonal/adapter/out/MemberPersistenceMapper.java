@@ -58,7 +58,6 @@ class MemberPersistenceMapper {
 		MemberEntity memberEntity = MemberEntity.builder()
 			.id(member.getId())
 			.build();
-		;
 		return TeamMemberEntity.builder()
 			.team(teamEntity)
 			.member(memberEntity)

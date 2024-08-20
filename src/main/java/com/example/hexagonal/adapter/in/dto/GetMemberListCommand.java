@@ -1,14 +1,9 @@
 package com.example.hexagonal.adapter.in.dto;
 
 import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Value;
 
-@Value
-@EqualsAndHashCode(callSuper = true)
+@Builder
 public record GetMemberListCommand(Long id, String name, boolean isShown) {
 
-	@Builder
-	public GetMemberListCommand {
-	}
+	// 유효성 검사 코드
 }
