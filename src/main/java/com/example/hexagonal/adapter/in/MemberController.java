@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.hexagonal.adapter.in.dto.GetMemberListCommand;
 import com.example.hexagonal.adapter.in.dto.GetMemberListRequest;
 import com.example.hexagonal.adapter.in.dto.GetMemberListResponse;
-import com.example.hexagonal.adapter.in.dto.ModifyMemberCommand;
 import com.example.hexagonal.adapter.in.dto.ModifyMemberRequest;
+import com.example.hexagonal.application.port.in.GetMemberListCommand;
 import com.example.hexagonal.application.port.in.GetMemberListUseCase;
+import com.example.hexagonal.application.port.in.ModifyMemberCommand;
 import com.example.hexagonal.application.port.in.ModifyMemberUseCase;
 
 import lombok.RequiredArgsConstructor;

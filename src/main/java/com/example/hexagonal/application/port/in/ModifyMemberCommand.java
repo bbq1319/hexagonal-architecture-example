@@ -1,4 +1,4 @@
-package com.example.hexagonal.adapter.in.dto;
+package com.example.hexagonal.application.port.in;
 
 import com.example.hexagonal.external.domain.enumeration.PeopleRole;
 

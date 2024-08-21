@@ -1,6 +1,6 @@
 package com.example.hexagonal.domain.model;
 
-import com.example.hexagonal.adapter.in.dto.ModifyMemberCommand;
+import com.example.hexagonal.application.port.in.ModifyMemberCommand;
 import com.example.hexagonal.external.domain.enumeration.PeopleRole;
 
 import lombok.AccessLevel;

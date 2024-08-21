@@ -7,13 +7,12 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
-import com.example.hexagonal.adapter.in.dto.GetMemberListCommand;
+import com.example.hexagonal.application.port.in.GetMemberListCommand;
 import com.example.hexagonal.application.port.out.GetMemberListPort;
 import com.example.hexagonal.application.port.out.GetMemberOnePort;
 import com.example.hexagonal.application.port.out.ModifyMemberPort;
 import com.example.hexagonal.domain.model.Member;
 import com.example.hexagonal.external.domain.entity.MemberEntity;
-import com.example.hexagonal.persistence.MemberRepository;
 
 import lombok.RequiredArgsConstructor;
 

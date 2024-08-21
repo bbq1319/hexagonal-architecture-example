@@ -1,4 +1,4 @@
-package com.example.hexagonal.persistence;
+package com.example.hexagonal.adapter.out;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.example.hexagonal.external.domain.entity.TeamEntity;
 
 @Repository
-public interface TeamRepository extends JpaRepository<TeamEntity, Long> {
+interface TeamRepository extends JpaRepository<TeamEntity, Long> {
 }

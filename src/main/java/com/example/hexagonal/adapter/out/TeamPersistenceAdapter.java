@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 import com.example.hexagonal.application.port.out.GetTeamOnePort;
 import com.example.hexagonal.domain.model.Team;
 import com.example.hexagonal.external.domain.entity.TeamEntity;
-import com.example.hexagonal.persistence.TeamRepository;
 
 import lombok.RequiredArgsConstructor;
 

@@ -3,7 +3,7 @@ package com.example.hexagonal.application.service;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.hexagonal.adapter.in.dto.ModifyMemberCommand;
+import com.example.hexagonal.application.port.in.ModifyMemberCommand;
 import com.example.hexagonal.application.port.in.ModifyMemberUseCase;
 import com.example.hexagonal.application.port.out.GetMemberOnePort;
 import com.example.hexagonal.domain.model.Member;
@@ -14,7 +14,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @Transactional
 @RequiredArgsConstructor
-public class ModifyMemberService implements ModifyMemberUseCase {
+class ModifyMemberService implements ModifyMemberUseCase {
 
 	private final GetMemberOnePort getMemberOnePort;
 	private final MemberService memberService;
